@@ -1,4 +1,4 @@
-import classes from './loading.module.css';
+import classes from './loading-out.module.css';
 
 const MealsLoadingPage = () => {
     return <h1 className={classes.loading}>Fetching meals...</h1>;
