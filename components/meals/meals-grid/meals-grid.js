@@ -3,6 +3,7 @@ import classes from './meals-grid.module.css';
 
 const MealsGrid = (props) => {
     const { meals } = props;
+    console.log(meals);
     return (
         <ul className={classes.meals}>
             {meals.map((meal) => (
